@@ -1,0 +1,9 @@
+
+ 이 프로그램을 실행하기 위해서는 다음과 같은 작업을 수행하여야 합니다. 
+
+
+# MySQL을 설치한 후 schema를 생성하여 그 schema 내에 이 폴더의 database 폴더에 들어있는 table 4개를 import한다. 
+
+# 이클립스로 workspace <Vintage>를 실행하여 <vintage> project의 library에 이 폴더 내에 들어있는 [mysql-connector-java-5.1.48.jar]과 [mysql-connector-java-5.1.48-bin.jar] 파일을 추가한다.
+
+# <Vintage> package 내의 "database_connecte" class에서 변수 localhost, schema, user, password를 본인의 환경에 맞게 수정해준다.
